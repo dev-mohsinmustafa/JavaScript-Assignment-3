@@ -1,0 +1,31 @@
+#navbar ,#color{
+    background-color: #1D3557;
+    
+}
+#navbar a {
+    color: white
+}
+#color, a{
+    color:  white;
+}
+footer{
+    height: 40px;
+}
+footer{
+    line-height: 40px;
+}
+/* .box button{
+    border-radius: 5px;
+   background-color: #C2D4EE;
+   color: black;
+   margin: 2px;
+} */
+/* .box button:hover{
+    background-color: white;
+   color: #1D3557;
+   transition: 0.5s;
+} */
+#Original{
+    background-color:#1D3557 ;
+    color: white;
+}

@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment-3</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Toastify css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <header id="navbar" class="position-sticky top-0">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo1.png" alt="" width="120"
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Assignment</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Chapter
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item text-primary" href="#">Arrays</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">Arrays:Adding and removing element </a></li>
+                                <li><a class="dropdown-item text-primary" href="#">Arrays:Inserting and extracting element</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">For Loop</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">For Loop: Flags,Boolean,array length,and breaks</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">For Loop nested</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--main-->
+    <div class="py-5">
+        <div class="container ">
+            <div class="row mb-3 mb-md-5">
+                <div class="col">
+                    <h3 class="text-center ">Chapter # 15 - 20| Arrays It's Method & for loops
+                    </h3>
+                    <div class="border-bottom mt-4 border-secondary"></div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Button</h2>
+                    <div class="box border border-secondary py-4 mb-5">
+                        <button class="btn btn-danger" id="btn">Simple Alert</button>
+                        <button class="btn btn-danger" id="print-name">Print my name</button>
+                        <button class="btn btn-danger" id="add-city">Add City into list</button>
+                        <button class="btn btn-danger" id="print-city" >Print All City </button>
+                        <button class="btn btn-danger" id="table">Generate Table</button>
+                        
+
+                    </div>
+                    <div class=" box">
+                        <div class="col text-center">
+                            <h2>Original Statement</h2>
+                            <div id="Original" class="border border-secondary py-5 mb-3 ">
+                                <audio  id="audio" src="audio/magic-spell-6005.mp3"></audio>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class=" box py-5">
+                        <div class="col text-center  ">
+                            <h2>Output/Result</h2>
+                            <div id="result" class="box border border-secondary py-5 mb-3">
+
+                            </div>
+                            <button class="btn btn-danger" id="clear">Clear Output</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <footer id="color">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 ">
+                    <p class="mb-0 fw-bold text-center text-md-start ">&copy; 2021. All Right Reserved.</p>
+                </div>
+                <div id="sheikh" class="d-none d-md-block  col-md-8 text-end ">
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
+                        class="fw-bold  text-decoration-none">Terms &amp; conditions</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
+                        class="fw-bold text-decoration-none">Privacy Plicy</a> |
+                    <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
+                        class="fw-bold  text-decoration-none">Order Policy</a>
+                    
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--Toastify js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--Bootrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Custom jS-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
